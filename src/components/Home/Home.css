@@ -1,0 +1,36 @@
+.wrapper {
+    display: flex;
+    width: 90%;
+    margin-left: 4rem;
+}
+
+.details {
+    padding: 0;
+    margin: 0;
+    flex: 4;
+    margin-top: 2.5rem;
+    /* text-align: left; */
+}
+
+.avatar {
+    background-image: url("./avatar.jpg");
+    width: 200px;
+    height: 250px;
+    background-size: cover;
+    flex: 1;
+    margin-left: 10rem;
+}
+
+.namesurname {
+    font-weight: bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+    /* padding-left:5rem; */
+}
+
+.email, .linkedin {
+    color: white;
+    margin-bottom: 0.2rem;
+    padding-left:0;
+}
